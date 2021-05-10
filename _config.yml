@@ -16,8 +16,8 @@
 
 ## => Site Settings
 ##############################
-text_skin: forest # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
-highlight_theme: tomorrow-night-eighties # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
+text_skin: "forest" # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
+highlight_theme: "tomorrow-night-eighties" # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : "http://jakalroni.github.io" # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
 title   : JaeWook's Study Blog
@@ -27,7 +27,7 @@ description: > # this means to ignore newlines until "Language & timezone"
 
 ## => Language and Timezone
 ##############################
-lang: # the language of your site, default as "en"
+lang: ko,en # the language of your site, default as "en"
 timezone: KR # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
@@ -207,13 +207,22 @@ defaults:
       type: posts
     values:
       layout: article
-      sharing: true
-      license: true
-      aside:
-        toc: true
-      show_edit_on_github: true
-      show_subscribe: true
-      pageview: true
+      title: Page - Article Header Image (Customized Header Background)
+      header:
+        theme: dark
+        background: '#333'
+      article_header:
+        type: cover
+        image:
+          src: /docs/assets/images/cover2.jpg
+      # layout: article
+      # sharing: true
+      # license: true
+      # aside:
+      #   toc: true
+      # show_edit_on_github: true
+      # show_subscribe: true
+      # pageview: true
 
 
 ## => Plugins

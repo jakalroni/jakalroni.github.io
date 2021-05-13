@@ -7,11 +7,10 @@ summary : 소스코드 첨부방법
 
 ## GitHub 블로그에 Source Code 첨부해보기!
 [https://syki66.github.io/blog/2020/04/16/TeXt-theme-config.html](https://syki66.github.io/blog/2020/04/16/TeXt-theme-config.html)
-<br>
-위 블로그를 참조해보자.
-</br>
 
-```Ruby
+<br>위 블로그를 참조해보자.</br>
+
+```C
 ## => Site Settings
 ##############################
 text_skin: forest # 사이트 테마 "default" (default), "dark", "forest", "ocean", "chocolate", "orange"

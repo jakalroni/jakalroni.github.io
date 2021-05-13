@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: GitHub.io 상단 탭 설정
 tags: JavaScript TIL

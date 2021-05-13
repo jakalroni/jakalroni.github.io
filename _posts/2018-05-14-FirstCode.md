@@ -1,18 +1,17 @@
 ---
 title: 블로그에 소스코드 첨부
 tags: etc
-key: page-2021051428
+key: page-202105140248
 summary : 소스코드 첨부방법
 ---
 
 ## GitHub 블로그에 Source Code 첨부해보기!
-jakalroni.github.io의 _data 디렉토리 <b> -> </b> navigation.yml 설정
 [https://syki66.github.io/blog/2020/04/16/TeXt-theme-config.html](https://syki66.github.io/blog/2020/04/16/TeXt-theme-config.html)
-<b>
+<br>
 위 블로그를 참조해보자.
-</b>
-```markdown
+</br>
 
+```Ruby
 ## => Site Settings
 ##############################
 text_skin: forest # 사이트 테마 "default" (default), "dark", "forest", "ocean", "chocolate", "orange"

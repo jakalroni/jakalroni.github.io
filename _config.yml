@@ -22,19 +22,19 @@ url     : https://jakalroni.github.io # the base hostname & protocol for your si
 baseurl : # does not include hostname
 title   : ChamCham2
 description: > # this means to ignore newlines until "Language & timezone"
-  JW's Study
+  나의 개발기록 블로그
 
 
 ## => Language and Timezone
 ##############################
-lang: en,ko # the language of your site, default as "en"
+lang: en # the language of your site, default as "en"
 timezone: Asia/Seoul # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
 ## => Author and Social
 ##############################
 author:
-  type      : person # "person" (default), "organization"
+  type      : # "person" (default), "organization"
   name      : jakalroni
   url       : https://jakalroni.github.io
   avatar    : # path or url of avatar image (square)
@@ -49,7 +49,7 @@ author:
   zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
   linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
-  github    : "https://github.com/jakalroni" # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+  github    : jakalroni # "user_name" the last part of your profile url, e.g. https://github.com/user_name
   npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
 
 
@@ -62,8 +62,8 @@ repository_tree: master
 ## => Paths
 ##############################
 paths:
-  root    : /archive.html # title link url, "/" (default)
-  home    : /archive.html # home layout url, "/" (default)
+  root    : # title link url, "/" (default)
+  home    : # home layout url, "/" (default)
   archive : # "/archive.html" (default)
   rss     : # "/feed.xml" (default)
 
@@ -84,14 +84,14 @@ toc:
 ## => Markdown Enhancements
 ##############################
 ## Mathjax
-mathjax: true # false (default), true
-mathjax_autoNumber: true # false (default), true
+mathjax: # false (default), true
+mathjax_autoNumber: # false (default), true
 
 ## Mermaid
-mermaid: true # false (default), true
+mermaid: # false (default), true
 
 ## Chart
-chart: true # false (default), true
+chart: # false (default), true
 
 
 ## => Paginate
@@ -207,22 +207,24 @@ defaults:
       type: posts
     values:
       layout: article
-      title: Page - Article Header Image (Customized Header Background)
-      header:
-        theme: dark
-        background: '#333'
-      article_header:
-        type: cover
-        image:
-          src: /docs/assets/images/cover2.jpg
+      title: Page - Single
+      sharing: true
+      license: true
+      aside:
+        toc: true
+      show_edit_on_github: true
+      show_subscribe: true
+      pageview: true
       # layout: article
-      # sharing: true
-      # license: true
-      # aside:
-      #   toc: true
-      # show_edit_on_github: true
-      # show_subscribe: true
-      # pageview: true
+      # title: Page - Article Header Image (Customized Header Background)
+      # header:
+      #   theme: dark
+      #   background: '#333'
+      # article_header:
+      #   type: cover
+      #   image:
+      #     src: /docs/assets/images/cover2.jpg
+
 
 
 ## => Plugins

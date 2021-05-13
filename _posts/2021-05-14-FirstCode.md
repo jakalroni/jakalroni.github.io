@@ -8,7 +8,7 @@ summary : 소스코드 첨부방법
 ## GitHub 블로그에 Source Code 첨부해보기!
 [https://syki66.github.io/blog/2020/04/16/TeXt-theme-config.html](https://syki66.github.io/blog/2020/04/16/TeXt-theme-config.html)
 
-<br>위 블로그를 참조해보자.</br>
+위 블로그를 참조해보자.
 
 ```c
 ## => Site Settings

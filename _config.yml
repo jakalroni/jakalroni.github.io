@@ -22,7 +22,7 @@ url     : https://jakalroni.github.io # the base hostname & protocol for your si
 baseurl : # does not include hostname
 title   : ChamCham2
 description: > # this means to ignore newlines until "Language & timezone"
-  나의 개발 기록 
+  나의 개발 기록 블로그
 
 
 ## => Language and Timezone

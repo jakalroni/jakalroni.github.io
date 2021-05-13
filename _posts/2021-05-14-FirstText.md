@@ -1,9 +1,20 @@
+<<<<<<< HEAD
 ---
-title: GitHub.io »ó´Ü ÅÇ ¼³Á¤
+title: GitHub.io ìƒë‹¨ íƒ­ ì„¤ì •
 tags: JavaScript TIL
 key: page-202105140135
-summary : GitHub.io »ó´Ü ÅÇ ¼³Á¤ÇÏ´Â ¹æ¹ıÀ» ¾Ë¾Æº¸ÀÚ
+summary : GitHub.io ìƒë‹¨ íƒ­ ì„¤ì •í•˜ëŠ” ë°©ë²•ì„ ì•Œì•„ë³´ì
 ---
 
-## GitHub ºí·Î±×ÀÇ »ó´Ü ÅÇ ¼³Á¤ ¹æ¹ı?
-jakalroni.github.ioÀÇ _data µğ·ºÅä¸® <b> -> </b> navigation.yml ¼³Á¤
+## GitHub ë¸”ë¡œê·¸ì˜ ìƒë‹¨ íƒ­ ì„¤ì • ë°©ë²•?
+=======
+---
+title: GitHub.io ìƒë‹¨ íƒ­ ì„¤ì •
+tags: JavaScript TIL
+key: page-202105140135
+summary : GitHub.io ìƒë‹¨ íƒ­ ì„¤ì •í•˜ëŠ” ë°©ë²•ì„ ì•Œì•„ë³´ì
+---
+
+## GitHub ë¸”ë¡œê·¸ì˜ ìƒë‹¨ íƒ­ ì„¤ì • ë°©ë²•?
+>>>>>>> 0b767a0143cd420686f302f9b9dd187d0159709b
+jakalroni.github.ioì˜ _data ë””ë ‰í† ë¦¬ <b> -> </b> navigation.yml ì„¤ì •

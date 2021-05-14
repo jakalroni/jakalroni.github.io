@@ -1,7 +1,7 @@
 ---
 title: SpecificWrite(특수 문자표 삽입)
 tags: etc
-key: page-202105140135
+key: page-202105150240
 summary : GitHub.io 내에서 문자표 삽입, 글자 크기, 글머리 기호 등 체험
 ---
 

@@ -11,7 +11,7 @@ $text-color-1:     #fff;
 $main-color-2:     #fca24d;
 $text-color-2:     #fff;
 
-$main-color-3:     linear-gradient(#fbcac9, #8ca6ce);
+$main-color-3:     linear-gradient(to right, #fbcac9, #8ca6ce);
 $text-color-3:     #333;
 
 $main-color-theme-light: rgba(#000, .9);
@@ -37,10 +37,10 @@ $text-background-color: rgba(#000, .05);
 
 // header and footer colors
 $header-text-color: $text-color-3;
-$header-background: linear-gradient(#fbcac9, #8ca6ce);
+$header-background: linear-gradient(to right, #fbcac9, #8ca6ce);
 
 $footer-text-color: $text-color-3;
-$footer-background: linear-gradient(#fbcac9, #8ca6ce);
+$footer-background: linear-gradient(to right, #fbcac9, #8ca6ce);
 
 // border and shadow colors
 $border-color:     mix(#000, $background-color, 20%);

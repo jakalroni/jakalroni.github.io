@@ -221,7 +221,8 @@ defaults:
         # type: overlay # 포스트 내부에서 헤더 오버레이 적용여부
         # theme: dark
         background_image: # 포스트 헤더 배경이미지 경로 및 그라데이션 설정
-          gradient: 'linear-gradient(#e66465, #9198e5)'
+          gradient: 'linear-gradient(to right, #fbcac9, #8ca6ce)'
+          # gradient: 'linear-gradient(#e66465, #9198e5)'
 
       # key: anything # 반드시 이 구문을 넣어야 disqus 댓글이 각 post 마다 실행됨
       # mode: immersive # 백그라운드 이미지 위에 헤더와 타이틀 올리기

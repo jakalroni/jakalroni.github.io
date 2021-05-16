@@ -218,7 +218,7 @@ defaults:
       header:
         # theme: dark # dark는 헤더의 배경을 어둡게 하고 글씨를 밝게함. light는 반대
       article_header:
-        type: overlay # 포스트 내부에서 헤더 오버레이 적용여부
+        # type: overlay # 포스트 내부에서 헤더 오버레이 적용여부
         # theme: dark
         background_image: # 포스트 헤더 배경이미지 경로 및 그라데이션 설정
           gradient: 'linear-gradient(#e66465, #9198e5)'
